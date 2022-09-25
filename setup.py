@@ -21,7 +21,11 @@ setup(
     entry_points={
         'console_scripts': [
             'teleop = comprobo_warmup_proj.teleop:main',
-            'drive_square = comprobo_warmup_proj.drive_square:main'
+            'drive_square = comprobo_warmup_proj.drive_square:main',
+            'wall_follower = comprobo_warmup_proj.wall_follower:main',
+            'obstacle_avoider = comprobo_warmup_proj.obstacle_avoider:main',
+            'person_follower = comprobo_warmup_proj.person_follower:main',
+            'finite_state_controller = comprobo_warmup_proj.finite_state_controller:main'
         ],
     },
 )
